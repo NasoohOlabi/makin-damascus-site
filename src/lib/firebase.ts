@@ -2,12 +2,13 @@ import { initializeApp } from 'firebase/app';
 import { getAuth, GoogleAuthProvider } from 'firebase/auth';
 
 const firebaseConfig = {
-	apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-	authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-	projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-	storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-	messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-	appId: import.meta.env.VITE_FIREBASE_APP_ID
+	apiKey: "AIzaSyC4RNZDqX2Wgow-ejC4DqgMJR11VuJQ01s",
+	authDomain: "makeen-damascus.firebaseapp.com",
+	projectId: "makeen-damascus",
+	storageBucket: "makeen-damascus.firebasestorage.app",
+	messagingSenderId: "691045970226",
+	appId: "1:691045970226:web:e5a51f3b6033cf1f89a72b",
+	measurementId: "G-104MQ9P8ES"
 };
 
 const app = initializeApp(firebaseConfig);
